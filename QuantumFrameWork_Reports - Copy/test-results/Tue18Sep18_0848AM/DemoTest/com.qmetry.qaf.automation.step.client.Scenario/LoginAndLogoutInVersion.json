@@ -1,0 +1,122 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "login_Version_application_with_valid_username_and_password",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www53.v1host.com/CGIinfo/Account.mvc/LogIn}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 14563
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verify_landing_page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='username'], using=xpath}"
+          ],
+          "result": "id: 0.2938668661354702-1",
+          "subLogs": [],
+          "duration": 162
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='username']",
+            "{\"id\":\"0.2938668661354702-1\",\"value\":[\"admin\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 177
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//input[@id='password'], using=xpath}"
+          ],
+          "result": "id: 0.2938668661354702-2",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //input[@id='password']",
+            "{\"id\":\"0.2938668661354702-2\",\"value\":[\"@Lt12345\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 99
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//button[1], using=xpath}"
+          ],
+          "result": "id: 0.2938668661354702-3",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //button[1]",
+            "{\"id\":\"0.2938668661354702-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 4339
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "logout_from_Application",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Login Version application with valid username and password",
+      "type": "TestStepPass",
+      "duration": 41110,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When Verify landing page",
+      "type": "TestStepPass",
+      "duration": 12852,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Logout from Application",
+      "type": "TestStepPass",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

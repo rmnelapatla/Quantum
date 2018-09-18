@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: TC 1 Verify that user is able to see Personal Information page for VISA █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given User is on Visa Scotia homepage ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given User is on Visa Scotia homepage ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When User perform the actions to navigate to Personal Information page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When User perform the actions to navigate to Personal Information page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then User should be able to see Personal Information page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then User should be able to see Personal Information page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: And User should be able to see helpline number on the Personal Information page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: And User should be able to see helpline number on the Personal Information page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User is on Visa Scotia homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When User perform the actions to navigate to Personal Information page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then User should be able to see Personal Information page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.cssSelector: div.progress-bar div.sub-title h2 text should be Step 1 of 4: Personal Information : Actual By.cssSelector: div.progress-bar div.sub-title h2 text is Step 1 of 4: Personal Information</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And User should be able to see helpline number on the Personal Information page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.cssSelector: span#helpLine span.phone text should be 1-888-882-8958 : Actual By.cssSelector: span#helpLine span.phone text is 1-888-882-8958</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+    </line>
+    <line>
+      <![CDATA[█ TEST STARTED: TC 2 Verify that user is able to see Personal Information page for Mastercard █]]>
+    </line>
+    <line>
+      <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Given User is on Mastercard Scotia homepage ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Given User is on Mastercard Scotia homepage ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: When User perform the actions to navigate to Enter Your Info page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: When User perform the actions to navigate to Enter Your Info page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: Then User should be able to see Enter Your Info page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: Then User should be able to see Enter Your Info page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[▄ ▄ ▄ BEGIN STEP: And User should be able to see Contact Us link on Enter Your Info page ▄ ▄ ▄]]>
+    </line>
+    <line>
+      <![CDATA[▀ ▀ ▀ END STEP: And User should be able to see Contact Us link on Enter Your Info page ▀ ▀ ▀]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User is on Mastercard Scotia homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When User perform the actions to navigate to Enter Your Info page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then User should be able to see Enter Your Info page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.cssSelector: div.progress-text span text should be Step 1 of 3: Enter your info : Actual By.cssSelector: div.progress-text span text is Step 1 of 3: Enter your info</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And User should be able to see Contact Us link on Enter Your Info page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.cssSelector: div.page-header li a.tooltip-toggle present : Actual By.cssSelector: div.page-header li a.tooltip-toggle present</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Web Demo Suite" duration-ms="82338" started-at="2018-04-04T22:15:04Z" finished-at="2018-04-04T22:16:26Z">
+    <groups>
+      <group name="@regression">
+        <method signature="src.main.resources.scenarios.scotiabank.feature.TC 1 Verify that user is able to see Personal Information page for VISA()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="TC 1 Verify that user is able to see Personal Information page for VISA" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="src.main.resources.scenarios.scotiabank.feature.TC 2 Verify that user is able to see Personal Information page for Mastercard()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" name="TC 2 Verify that user is able to see Personal Information page for Mastercard" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @regression -->
+      <group name="@mastercard">
+        <method signature="src.main.resources.scenarios.scotiabank.feature.TC 2 Verify that user is able to see Personal Information page for Mastercard()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" name="TC 2 Verify that user is able to see Personal Information page for Mastercard" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @mastercard -->
+      <group name="@visa">
+        <method signature="src.main.resources.scenarios.scotiabank.feature.TC 1 Verify that user is able to see Personal Information page for VISA()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="TC 1 Verify that user is able to see Personal Information page for VISA" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- @visa -->
+    </groups>
+    <test name="Demo Test" duration-ms="82338" started-at="2018-04-04T22:15:04Z" finished-at="2018-04-04T22:16:26Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 1 Verify that user is able to see Personal Information page for VISA" name="setupSuit" is-config="true" duration-ms="30" started-at="2018-04-04T18:15:03Z" finished-at="2018-04-04T18:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8c8dcf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 1 Verify that user is able to see Personal Information page for VISA" name="setupTest" is-config="true" duration-ms="3" started-at="2018-04-04T18:15:05Z" finished-at="2018-04-04T18:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8c8dcf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 1 Verify that user is able to see Personal Information page for VISA" name="setup" is-config="true" duration-ms="0" started-at="2018-04-04T18:15:05Z" finished-at="2018-04-04T18:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8c8dcf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 1 Verify that user is able to see Personal Information page for VISA" name="setupMethod" is-config="true" duration-ms="2" started-at="2018-04-04T18:15:05Z" finished-at="2018-04-04T18:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8c8dcf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="TC 1 Verify that user is able to see Personal Information page for VISA()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="TC 1 Verify that user is able to see Personal Information page for VISA" name="TC 1 Verify that user is able to see Personal Information page for VISA" duration-ms="62219" started-at="2018-04-04T18:15:05Z" finished-at="2018-04-04T18:16:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: TC 1 Verify that user is able to see Personal Information page for VISA █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given User is on Visa Scotia homepage ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given User is on Visa Scotia homepage ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When User perform the actions to navigate to Personal Information page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When User perform the actions to navigate to Personal Information page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then User should be able to see Personal Information page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then User should be able to see Personal Information page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: And User should be able to see helpline number on the Personal Information page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: And User should be able to see helpline number on the Personal Information page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User is on Visa Scotia homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When User perform the actions to navigate to Personal Information page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then User should be able to see Personal Information page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.cssSelector: div.progress-bar div.sub-title h2 text should be Step 1 of 4: Personal Information : Actual By.cssSelector: div.progress-bar div.sub-title h2 text is Step 1 of 4: Personal Information</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And User should be able to see helpline number on the Personal Information page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.cssSelector: span#helpLine span.phone text should be 1-888-882-8958 : Actual By.cssSelector: span#helpLine span.phone text is 1-888-882-8958</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC 1 Verify that user is able to see Personal Information page for VISA -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 1 Verify that user is able to see Personal Information page for VISA" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-04-04T18:16:07Z" finished-at="2018-04-04T18:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8c8dcf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TC 1 Verify that user is able to see Personal Information page for VISA status=SUCCESS method=src.main.resources.scenarios.scotiabank.feature.TC 1 Verify that user is able to see Personal Information page for VISA()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 1 Verify that user is able to see Personal Information page for VISA" name="afterClass" is-config="true" duration-ms="0" started-at="2018-04-04T18:16:07Z" finished-at="2018-04-04T18:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8c8dcf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 2 Verify that user is able to see Personal Information page for Mastercard" name="setup" is-config="true" duration-ms="0" started-at="2018-04-04T18:16:07Z" finished-at="2018-04-04T18:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8c8dcf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 2 Verify that user is able to see Personal Information page for Mastercard" name="setupMethod" is-config="true" duration-ms="2" started-at="2018-04-04T18:16:07Z" finished-at="2018-04-04T18:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8c8dcf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="TC 2 Verify that user is able to see Personal Information page for Mastercard()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 2 Verify that user is able to see Personal Information page for Mastercard" name="TC 2 Verify that user is able to see Personal Information page for Mastercard" duration-ms="18901" started-at="2018-04-04T18:16:07Z" finished-at="2018-04-04T18:16:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]>
+            </line>
+            <line>
+              <![CDATA[█ TEST STARTED: TC 2 Verify that user is able to see Personal Information page for Mastercard █]]>
+            </line>
+            <line>
+              <![CDATA[█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Given User is on Mastercard Scotia homepage ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Given User is on Mastercard Scotia homepage ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: When User perform the actions to navigate to Enter Your Info page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: When User perform the actions to navigate to Enter Your Info page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: Then User should be able to see Enter Your Info page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: Then User should be able to see Enter Your Info page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[▄ ▄ ▄ BEGIN STEP: And User should be able to see Contact Us link on Enter Your Info page ▄ ▄ ▄]]>
+            </line>
+            <line>
+              <![CDATA[▀ ▀ ▀ END STEP: And User should be able to see Contact Us link on Enter Your Info page ▀ ▀ ▀]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given User is on Mastercard Scotia homepage</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When User perform the actions to navigate to Enter Your Info page</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then User should be able to see Enter Your Info page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.cssSelector: div.progress-text span text should be Step 1 of 3: Enter your info : Actual By.cssSelector: div.progress-text span text is Step 1 of 3: Enter your info</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And User should be able to see Contact Us link on Enter Your Info page</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Expected By.cssSelector: div.page-header li a.tooltip-toggle present : Actual By.cssSelector: div.page-header li a.tooltip-toggle present</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC 2 Verify that user is able to see Personal Information page for Mastercard -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 2 Verify that user is able to see Personal Information page for Mastercard" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-04T18:16:26Z" finished-at="2018-04-04T18:16:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8c8dcf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TC 2 Verify that user is able to see Personal Information page for Mastercard status=SUCCESS method=src.main.resources.scenarios.scotiabank.feature.TC 2 Verify that user is able to see Personal Information page for Mastercard()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9] output=█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 2 Verify that user is able to see Personal Information page for Mastercard" name="afterClass" is-config="true" duration-ms="0" started-at="2018-04-04T18:16:26Z" finished-at="2018-04-04T18:16:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8c8dcf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="TC 1 Verify that user is able to see Personal Information page for VISA" name="afterTest" is-config="true" duration-ms="90" started-at="2018-04-04T18:16:26Z" finished-at="2018-04-04T18:16:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7a8c8dcf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- Demo Test -->
+  </suite> <!-- Web Demo Suite -->
+</testng-results>

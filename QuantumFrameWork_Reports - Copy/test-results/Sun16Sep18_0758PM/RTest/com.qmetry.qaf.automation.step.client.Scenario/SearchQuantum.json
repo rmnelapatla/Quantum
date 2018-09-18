@@ -1,0 +1,167 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 991
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_search_for",
+      "args": [
+        "[quantum perfecto]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 97d49e0a-3638-4846-b972-01bde3f2b908",
+          "subLogs": [],
+          "duration": 425
+        },
+        {
+          "commandName": "clearElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"97d49e0a-3638-4846-b972-01bde3f2b908\"}"
+          ],
+          "result": "clearElement:null",
+          "subLogs": [],
+          "duration": 316
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=q, using=name}"
+          ],
+          "result": "id: 97d49e0a-3638-4846-b972-01bde3f2b908",
+          "subLogs": [],
+          "duration": 92
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.name: q",
+            "{\"id\":\"97d49e0a-3638-4846-b972-01bde3f2b908\",\"value\":[\"quantum perfecto\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 80495
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=btnK, using=name}"
+          ],
+          "result": "id: e55e7be3-3db9-459d-8ee9-2478a8954959",
+          "subLogs": [],
+          "duration": 114
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.name: btnK",
+            "{\"id\":\"e55e7be3-3db9-459d-8ee9-2478a8954959\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 1646
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "it_should_have_in_search_results",
+      "args": [
+        "[Introducing Quantum Framework]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=Introducing Quantum Framework, using=partial link text}"
+          ],
+          "result": "[id: ba772e3c-ccd1-42b9-bf84-51115b298b9d]",
+          "subLogs": [],
+          "duration": 957
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "I_am_on_Google_Search_Page",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=http://www.google.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 827
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given I am on Google Search Page",
+      "type": "TestStepPass",
+      "duration": 3464,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When I search for \"quantum perfecto\"",
+      "type": "TestStepPass",
+      "duration": 83098,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then it should have \"Introducing Quantum Framework\" in search results",
+      "type": "TestStepPass",
+      "duration": 963,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Expected Introducing Quantum Framework present : Actual Introducing Quantum Framework present",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then I am on Google Search Page",
+      "type": "TestStepPass",
+      "duration": 828,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

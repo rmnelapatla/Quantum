@@ -1,0 +1,68 @@
+{
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "classes": [
+    "com.qmetry.qaf.automation.step.client.Scenario"
+  ],
+  "envInfo": {
+    "browser-desired-capabilities": {
+      "ensureCleanSession": true,
+      "browserName": "internet explorer",
+      "takesScreenshot": true,
+      "javascriptEnabled": true,
+      "version": "",
+      "platform": "WINDOWS",
+      "cssSelectorsEnabled": true
+    },
+    "browser-actual-capabilities": {
+      "browserAttachTimeout": "0",
+      "ie.enableFullPageScreenshot": "true",
+      "enablePersistentHover": "true",
+      "ie.forceCreateProcessApi": "false",
+      "ie.forceShellWindowsApi": "false",
+      "pageLoadStrategy": "normal",
+      "ignoreZoomSetting": "false",
+      "ie.fileUploadDialogTimeout": "3000",
+      "version": "11",
+      "platform": "WINDOWS",
+      "proxy": "{proxyType=}",
+      "nativeEvents": "true",
+      "ie.ensureCleanSession": "false",
+      "elementScrollBehavior": "0",
+      "ie.browserCommandLineSwitches": "",
+      "requireWindowFocus": "false",
+      "browserName": "internet explorer",
+      "initialBrowserUrl": "http://localhost:2171/",
+      "javascriptEnabled": "true",
+      "ignoreProtectedModeSettings": "false",
+      "enableElementCacheCleanup": "true",
+      "unexpectedAlertBehaviour": "dismiss"
+    },
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "13",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "20-Feb-2018 00:19:29"
+    },
+    "run-parameters": {
+      "resources": "src/main/resources/common",
+      "system.webdriver.ie.driver": "E:/QuantumFrameWork_Reports/AllBrowsers/IEDriverServer2.53.exe",
+      "baseurl": "",
+      "driver.name": "iExplorerDriver"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_171",
+      "os.arch": "amd64",
+      "host": "DESKTOP-P0HTBRT",
+      "os.name": "Windows 10",
+      "user.name": "ramana",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1537080310950,
+  "endTime": 1537080312161
+}

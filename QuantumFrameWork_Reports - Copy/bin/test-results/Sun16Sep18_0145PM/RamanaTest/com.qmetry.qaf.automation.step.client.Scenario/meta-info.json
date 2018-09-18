@@ -1,0 +1,41 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "SetupTest",
+        "name": "setupTest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1537085710890,
+      "duration": 0,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@MyWeb"
+        ],
+        "lineNo": 5,
+        "name": "Search Quantum",
+        "referece": "src/main/resources/scenarios/MyWeb.feature",
+        "resultFileName": "SearchQuantum",
+        "sign": "src.main.resources.scenarios.MyWeb.feature.Search Quantum()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1537085740321,
+      "duration": 88989,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

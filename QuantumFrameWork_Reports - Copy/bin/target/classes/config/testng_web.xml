@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="com.quantum.java.pages.QuantumReportListener"/>
+    </listeners>
+
+    <test name="Demo Test" enabled="true">
+        <parameter name="driver.name" value="chromedriver"></parameter>
+        <parameter name= "webdriver.chrome.driver" value="E:/QuantumFrameWork_Reports/AllBrowsers/chromedriver.exe"></parameter>
+        <!--<parameter name="driver.capabilities.platformName" value="Windows"></parameter> -->
+        <groups>
+            <run>
+                <include name="@Version" />
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
+
+
+    <test name="RTest" enabled="true">
+        <parameter name="driver.name" value="iExplorerDriver"></parameter>
+        <parameter name="system.webdriver.ie.driver" value="E:/QuantumFrameWork_Reports/AllBrowsers/IEDriverServer2.53.exe"></parameter>
+        <!--<parameter name="driver.capabilities.platformName" value="Windows"></paramete> -->
+        <groups>
+            <run>
+                <include name="@MyWeb" />
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.quantum:quantum-support:1.13-RC1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/quantum/quantum-support/1.13-RC1/quantum-support-1.13-RC1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/quantum/quantum-support/1.13-RC1/quantum-support-1.13-RC1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/quantum/quantum-support/1.13-RC1/quantum-support-1.13-RC1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

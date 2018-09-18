@@ -1,0 +1,14 @@
+{
+  "seleniumLog": [],
+  "checkPoints": [
+    {
+      "message": "Unable to get WebDriver instance",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.RuntimeException: Unable to get WebDriver instance\r\n\tat com.perfecto.reportium.testng.ReportiumTestNgListener.getWebDriver(ReportiumTestNgListener.java:84)\r\n\tat com.perfecto.reportium.testng.ReportiumTestNgListener.createReportiumClient(ReportiumTestNgListener.java:72)\r\n\tat com.perfecto.reportium.testng.ReportiumTestNgListener.reportTestStart(ReportiumTestNgListener.java:111)\r\n\tat com.perfecto.reportium.testng.ReportiumTestNgListener.beforeInvocation(ReportiumTestNgListener.java:97)\r\n\tat org.testng.internal.invokers.InvokedMethodListenerInvoker$InvokeBeforeInvocationWithoutContextStrategy.callMethod(InvokedMethodListenerInvoker.java:84)\r\n\tat org.testng.internal.invokers.InvokedMethodListenerInvoker.invokeListener(InvokedMethodListenerInvoker.java:62)\r\n\tat org.testng.internal.Invoker.runInvokedMethodListeners(Invoker.java:557)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:625)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:39)\r\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)\r\n\tat org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)\r\n\tat java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)\r\n"
+}

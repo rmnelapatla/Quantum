@@ -1,0 +1,14 @@
+{
+  "name": "Web Demo Suite",
+  "status": "fail",
+  "tests": [
+    "DemoTest",
+    "RTest"
+  ],
+  "total": 2,
+  "pass": 0,
+  "fail": 2,
+  "skip": 0,
+  "startTime": 1537116156840,
+  "endTime": 1537116163342
+}

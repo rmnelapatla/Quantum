@@ -1,0 +1,15 @@
+#Version one Repositery
+#simple easy with one object unique property
+login.user.txt=id=username
+login.password.txt=xpath="//input[@type='password']"
+login.login.btn=css=button.confirm-btn
+
+#object with more then one property to locate the element
+#{'login.username.txt' : ['css=#username','name=username','xpath=.//input[@id=\'username\']']; 'desc' : ' username '}
+
+
+#Self-descriptive locator syntax
+#login.user.txt = {\"locator\":\"id=username\",\"desc\":\"username\"}
+#{"login.password.txt":"xpath=//input[@type='password']","desc":"Enter Password"}
+#login.login.btn='css=button.confirm-btn';'dec':'input for button'
+

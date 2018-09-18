@@ -1,0 +1,18 @@
+# Created on 2018-04-04T18:08:22.996
+java.lang.NoSuchMethodError: org.testng.TestRunner.<init>(Lorg/testng/internal/IConfiguration;Lorg/testng/ISuite;Lorg/testng/xml/XmlTest;Ljava/lang/String;Lorg/testng/internal/annotations/IAnnotationFinder;ZLjava/util/List;)V
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:546)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:159)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:113)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1274)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1261)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1115)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+
+

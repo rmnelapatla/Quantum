@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.vimalselvam:cucumber-extentsreport:3.0.2" type="repository">
+    <properties maven-id="com.vimalselvam:cucumber-extentsreport:3.0.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/cucumber-extentsreport-3.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

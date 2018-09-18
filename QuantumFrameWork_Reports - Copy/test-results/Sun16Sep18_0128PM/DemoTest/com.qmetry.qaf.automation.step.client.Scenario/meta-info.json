@@ -1,0 +1,25 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "",
+        "groups": [
+          "@Version"
+        ],
+        "lineNo": 5,
+        "name": "Login and logout in Version",
+        "referece": "src/main/resources/scenarios/VersionTest.feature",
+        "resultFileName": "LoginAndLogoutInVersion",
+        "sign": "src.main.resources.scenarios.VersionTest.feature.Login and logout in Version()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1537084682547,
+      "duration": 20488,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}
